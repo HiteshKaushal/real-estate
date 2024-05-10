@@ -1,0 +1,107 @@
+*{
+  font-family: montserrat;
+}
+body{
+  background: #f1fbff;
+}
+.section-padding{
+  padding:100px 0px;
+
+}
+.carousel-item{
+  height:100vh;
+  min-height: 300px;
+}
+.carousel-caption{
+  bottom:220px;
+  z-index:2;
+}
+.carousel-caption h5{
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+.carousel-caption p{
+  width:60%;
+  margin:auto;
+  font-size:18px;
+  line-height:1.9;
+}.carousel-inner::before{
+  content: '';
+  position: absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.658);
+  z-index: 1;
+
+}
+/* .carousel-item img{
+  height:100%;
+} */
+.navbar-nav a{
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.navbar-light .navbar-brand{
+  color:#000;
+  font-size:28px;
+  text-transform: uppercase;
+  font-weight:700;
+  letter-spacing:2px;
+
+}
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+  color:#000;
+}
+.navbar-light .navbar-nav .navbar-link{
+  color:#000;
+
+}
+.w-100{
+  height:100vh;
+}
+.ico{
+  font-size: 50px;
+}
+.team .card-body i{
+  font-size: 20px;
+}
+.portifilo .card{
+  box-shadow:15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+.team .card{
+  box-shadow:15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+@media only screen and (max-width:720px){
+  .carousel-caption h5{
+    font-size:35px;
+
+  }
+  .carousel-caption p{
+    font-size:18px;
+    
+  }
+}
+  @media only screen and (max-width:350px){
+    .carousel-caption {
+      bottom:50px;
+    }
+    .carousel-caption h5{
+      font-size:25px;
+  
+    }
+    .carousel-caption p{
+      font-size:15px;
+  
+    }
+
+}
+/*about section*/
+.para{
+text-align: justify;
+}
